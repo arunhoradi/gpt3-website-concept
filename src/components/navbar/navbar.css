@@ -33,18 +33,19 @@
     align-items: center;
 }
 
-.gpt3__navbar-links_container p,
+.gpt3__navbar-links_container p a,
 .gpt3__navbar-sign p,
-.gpt3__navbar-menu_container p {
+.gpt3__navbar-menu_container p a {
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
-
+    text-align: none;
     margin: 0 1rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .gpt3__navbar-sign button,
